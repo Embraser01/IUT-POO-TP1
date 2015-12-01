@@ -15,8 +15,9 @@ public class Data {
     private Statement statement = null;
 
     public Data() {
-//        db = DatabaseConnector.openDb("statistics.sqlite");
-        db = DatabaseConnector.openDb("D:/Mes Documents/dev/Java/IUT-POO-TP1/FootballStats/src/statistics.sqlite");
+        //db = DatabaseConnector.openDb("statistics.sqlite");
+        //db = DatabaseConnector.openDb("D:/Mes Documents/dev/Java/IUT-POO-TP1/FootballStats/src/statistics.sqlite");
+        db = DatabaseConnector.openDb("F:/Documents/_IUT/POO/TP1/FootballStats/src/statistics.sqlite");
         teamList = new ArrayList<Team>();
 
         loadData();

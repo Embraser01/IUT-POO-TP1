@@ -15,7 +15,7 @@ public class MBarres1 extends AbstractBarres {
 
 
     public MBarres1(ArrayList<Team> teamList) {
-        super(teamList, "V-N-D/Continent", "Continent", "Nombre", PlotOrientation.HORIZONTAL);
+        super(teamList, "V-N-D/Continent", "Continent", "Nombre", PlotOrientation.HORIZONTAL, true);
     }
 
     @Override
